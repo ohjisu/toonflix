@@ -12,3 +12,8 @@ Using everthing we have learned, clone the following UI:
 - iOS 시뮬레이터에서 화면을 녹화하는 방법
 - Android 시뮬레이터에서 화면을 녹화하는 방법
 - 제출기간: 익일 오전 6시까지
+
+## 제출 완료
+<p align="center">
+  <img src="https://imgur.com/a/Xba2tIg">
+</p>
