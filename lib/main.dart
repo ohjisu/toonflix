@@ -29,7 +29,16 @@ class App extends StatelessWidget {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    const Text("이미지"), // Todo, 이미지
+                    SizedBox(
+                        width: 50,
+                        height: 50,
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(30),
+                          child: Image.network(
+                            'https://picsum.photos/600/600/?random',
+                            fit: BoxFit.cover,
+                          ),
+                        )),
                     Container(
                       width: 50,
                       alignment: Alignment.center,
@@ -46,7 +55,7 @@ class App extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.fromLTRB(15, 0, 20, 0),
+                padding: const EdgeInsets.fromLTRB(15, 28, 20, 0),
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.start,
                   children: [
@@ -55,14 +64,14 @@ class App extends StatelessWidget {
                         Text(
                           "MONDAY",
                           style: TextStyle(
-                            color: Colors.white38,
+                            color: Colors.white70,
                           ),
                         ),
                         SizedBox(width: 10),
                         Text(
                           "16",
                           style: TextStyle(
-                            color: Colors.white38,
+                            color: Colors.white70,
                           ),
                         ),
                       ],
@@ -71,7 +80,7 @@ class App extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 30,
+                height: 15,
               ),
               Padding(
                 padding: const EdgeInsets.fromLTRB(15, 0, 0, 0),
@@ -116,7 +125,7 @@ class App extends StatelessWidget {
                 ),
               ),
               const SizedBox(
-                height: 30,
+                height: 35,
               ),
               const ColorCard(
                 bgColor: Color(0xfffef754),
