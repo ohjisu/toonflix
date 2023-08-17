@@ -15,5 +15,5 @@ Using everthing we have learned, clone the following UI:
 
 ## 제출 완료
 <p align="center">
-  <img src="(https://github.com/ohjisu/toonflix/assets/77333739/cb30df7e-0c2c-4530-8329-c91dc9debefe">
+  <img src="https://github.com/ohjisu/toonflix/assets/77333739/cb30df7e-0c2c-4530-8329-c91dc9debefe">
 </p>
